@@ -78,6 +78,7 @@ var seriesVersions = map[string]string{
 	"win81":       "win81",
 	"win10":       "win10",
 	"centos7":     "centos7",
+	"centos6":     "centos6",
 	"arch":        "rolling",
 }
 
@@ -85,6 +86,7 @@ var seriesVersions = map[string]string{
 var versionSeries = reverseSeriesVersion()
 
 var centosSeries = map[string]string{
+	"centos6": "centos6",
 	"centos7": "centos7",
 }
 
